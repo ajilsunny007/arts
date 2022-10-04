@@ -93,8 +93,7 @@
                 <div class="container">
                         <div class="section-content">
                             <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-12">
-
+                                <!-- <div class="col-xl-6 col-lg-6 col-md-12">
                                     <div class="about-home-3 m-b30 bg-white">
                                         <h3 class="m-t0 m-b20 sx-tilte text-center">
                                             <img src="<?php echo base_url('assets\images\PSX_20210211_182638-01.jpeg') ?>" alt="">
@@ -102,50 +101,38 @@
 
                                         <h4 class="text-center">Ar.Akhil Augustine</h4>
                                         <h5 class="text-center">+91 940 0809 077</h5>
-                                    <!-- <ul class="list-angle-right anchor-line">
-                                        <li><a href="#">We provide a architectural 3D modeling services.</a></li>
-                                        <li><a href="#">Our specialists are ready to consult you on any topic.</a></li>
-                                        <li><a href="#">We develop and implement better interior design.</a></li>
-                                        <li><a href="#">We provide high-quality interior services for clients.</a></li>
-                                    </ul> -->
-
-                                        <!-- <div class="text-left">
-                                            <a href="javascript:;" class="site-button btn-half"><span>Read More</span></a>
-                                        </div> -->
                                     </div>
-                                </div>
+                                </div> -->
 
-                                <div class="col-xl-6 col-lg-6 col-md-12">
+                                <!-- <div class="col-xl-6 col-lg-6 col-md-12">
 
                                     <div class="about-home-3 m-b30 bg-white">
                                         <h3 class="m-t0 m-b20 sx-tilte text-center">
-                                            <!-- A small efficient interior design team. -->
                                             <img src="<?php echo base_url('assets\images\PSX_20220324_223340-01.jpeg') ?>" alt="">
                                         </h3>
 
                                         <h4 class="text-center">Ar.Albin Joseph</h4>
                                         <h5 class="text-center">+91 884 8727 345</h5>
-
-                                    <!-- <ul class="list-angle-right anchor-line">
-                                        <li><a href="#">We provide a architectural 3D modeling services.</a></li>
-                                        <li><a href="#">Our specialists are ready to consult you on any topic.</a></li>
-                                        <li><a href="#">We develop and implement better interior design.</a></li>
-                                        <li><a href="#">We provide high-quality interior services for clients.</a></li>
-                                    </ul> -->
-
-                                        <!-- <div class="text-left">
-                                            <a href="javascript:;" class="site-button btn-half"><span>Read More</span></a>
-                                        </div> -->
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <div class="col-xl-12 col-lg-12 col-md-12">
 
-                                    <div class="about-home-3 m-b30 bg-white">
-                                        <h3 class="m-t0 m-b20 sx-tilte">About Us</h3>
+                                    <div class="about-home-3 m-b30 bg-white row">
 
-                                        <p>Akhil Albin Architects is an Architectural Company based in Kannur, Kerala. operating in the fields of Architecture and Urbanism. Our company assures unique architectural design with an eye on detail.</p>
-                                        <p>At Akhil Albin Architects, we believe that Architectural Structures with a Lasting Positive impact on Surroundings leads to Better Living.</p>
+                                        <div class="col-md-8">
+                                          <h3 class="m-t0 m-b20 sx-tilte">About Us</h3>
+                                          <p>
+                                            What is architecture if not for the constraints and potentials of its surroundings? There’s an innate capability in an architect to design in a flow, overcoming challenges and using the strengths. To design in a vast empty land confined to the horizon on all edges wouldn’t be as engaging as when there are several parameters to give attention to. Kerala for us is the sadhya to all our architectural cravings. It’s so satisfying to scribble through the contours or around the ponds and to simply go to a site and sit down under the shade of a tree only to scribble again as intuitions move the pencil to meaningful details. The boon of a climate that’s not harsh and the plethora of ecological wealth in our native land is the ink to our architectural drawings. Bearing a handful of love for our soil and a conscience to not be a weapon in the lap of mother earth, we began our journey in 2019 in a small town called Chemperi in Kannur district, Kerala.
+                                          </p>
+                                          <p>
+                                              We are Akhil and Albin, architecture graduates from Calicut University, friends by our shared interests in art, movies, travel and what not? Hailing from a place where people are unaware about the importance of an architect and most importantly designed spaces, we come into the picture, telling them they need not break down that ancestral house nor sell off ornaments for glossy modern houses. What we do is understand their aspirations, educate them on what is unnecessary and insist on preserving the natural resources. The mountainous topography of our region is a canvas we enjoy working on. From low-cost architecture to luxurious, we make it a point to not compromise on our values, listen to the clients and build in a way that there’s minimum harm to the site. Working in the tropics enables us to keenly observe the temperaments of the climate, play with it, tackle it and sometimes surrender to it. In our architecture, one will find a romantic notion of nature. One should not feel left out from the celebrations of the earth. We aspire for our clients to find joy in the nooks and corners of our architecture, just as much as we relish making places for them.
+                                          </p>
+                                        </div>
+                                        <div class="col-md-4">
+                                          <img src="<?php echo base_url('assets\images\about1.jpeg') ?>" alt="" style="max-width: 100% !important;">
+                                        </div>
+
 
                                     <!-- <ul class="list-angle-right anchor-line">
                                         <li><a href="#">We provide a architectural 3D modeling services.</a></li>

@@ -54,7 +54,7 @@ class MainController extends CI_Controller {
 		else
 		{
 			$this->session->set_userdata('logmsg','Username/Password invalid....!!');
-			redirect('Login','reload');
+			redirect('Admin-Login','reload');
 		}
 	}
 	public function Dashboard()
@@ -142,7 +142,7 @@ class MainController extends CI_Controller {
 			$file_tmp=$_FILES["images"]["tmp_name"][$key];
 			$folderPath = "../arts/assets/projects/";
 			move_uploaded_file($file_tmp, $folderPath . $file_name);
-			compress_image($folderPath, $folderPath . $file_name, 80);
+			$this->compress_image($folderPath. $file_name, $folderPath . $file_name, 80);
 
 			$data1=['image'=>$file_name,'pr_id'=>$lastid];
 			$this->MainModel->insertdate('tbl_project_image',$data1);
@@ -205,7 +205,7 @@ class MainController extends CI_Controller {
 				$file_tmp=$_FILES["images"]["tmp_name"][$key];
 				$folderPath = "../arts/assets/projects/";
 				move_uploaded_file($file_tmp, $folderPath . $file_name);
-				compress_image($folderPath, $folderPath . $file_name, 80);
+				$this->compress_image($folderPath. $file_name, $folderPath . $file_name, 80);
 
 				$data1=['image'=>$file_name,'pr_id'=>$proid];
 				$this->MainModel->insertdate('tbl_project_image',$data1);
@@ -363,10 +363,15 @@ class MainController extends CI_Controller {
 	}
 	public function compress_image($source_url, $destination_url, $quality)
   {
+
       $info = getimagesize($source_url);
-      if ($info['mime'] == 'image/jpeg') $image = imagecreatefromjpeg($source_url);
-      elseif ($info['mime'] == 'image/gif') $image = imagecreatefromgif($source_url);
-      elseif ($info['mime'] == 'image/png') $image = imagecreatefrompng($source_url);
-      imagejpeg($image, $destination_url, $quality);
+
+      if ($info['mime'] == 'image/jpeg')
+				$image = imagecreatefromjpeg($source_url);
+      elseif ($info['mime'] == 'image/gif')
+				$image = imagecreatefromgif($source_url);
+      elseif ($info['mime'] == 'image/png')
+				$image = imagecreatefrompng($source_url);
+      	imagejpeg($image, $destination_url, $quality);
   }
 }
