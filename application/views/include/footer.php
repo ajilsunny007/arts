@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="sx-footer-bot-left">
-                    <span class="copyrights-text">© <?php echo date('Y') ?> Your Company. Designed By BROCODEAI.</span>
+                    <span class="copyrights-text">© <?php echo date('Y') ?> Your Company. Designed By Akhil Albin Architects.</span>
                 </div>
             </div>
         </div>

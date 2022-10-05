@@ -130,7 +130,7 @@
                                           </p>
                                         </div>
                                         <div class="col-md-4">
-                                          <img src="<?php echo base_url('assets\images\about1.jpeg') ?>" alt="" style="max-width: 100% !important;">
+                                          <img src="<?php echo base_url('assets\images\about.jpg') ?>" alt="" style="max-width: 100% !important;">
                                         </div>
 
 
