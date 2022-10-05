@@ -5,18 +5,16 @@
 
     <!-- META -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <meta name="robots" content="" />
-    <meta name="description" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Akhil Albin Architects is an architectural firm working in the field of architecture and urbanism. Our company guarantees unique architectural design with attention to detail.">
+    <meta name="keywords" content="Architecture Studio,Architecture,Akhil and Albin,Akhil Albin Architects">
+    <meta property="og:image" content="<?php echo base_url()?>assets/images/logo.png" />
+    <!-- PAGE TITLE HERE -->
+    <title>Akhil Albin Architects - Home</title>
 
     <!-- FAVICONS ICON -->
     <link rel="icon" href="<?php echo base_url()?>assets/images/logo.png" type="image/x-icon" />
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url()?>assets/images/logo.png" />
-
-    <!-- PAGE TITLE HERE -->
-    <title>Architecture Studio</title>
 
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
