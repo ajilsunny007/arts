@@ -167,6 +167,22 @@
 Pallikunnu, kannur, Kerala 670004</p>
                                             </div>
                                         </div>
+                                        <div class="sx-icon-box-wraper left p-b30 row">
+                                            <div class="col-4 mt-4 text-center">
+                                                <a href="https://www.houzz.in/pro/akhil-augustine/akhil-albin-architects" target="_blank" title="Houzz">
+                                                    <img src="<?php echo base_url()?>assets/images/client-logo/logo_houzz.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-4 mt-4 text-center">
+                                                <a href="https://m.facebook.com/1743437685915227/" target="_blank" title="Facebook">
+                                                    <img src="<?php echo base_url()?>assets/images/client-logo/fb.png" alt="">
+                                                </a>
+                                            </div><div class="col-4 mt-4 text-center">
+                                                <a href="https://instagram.com/akhil_albin_architects" target="_blank" title="Instagram">
+                                                    <img src="<?php echo base_url()?>assets/images/client-logo/Instagram.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

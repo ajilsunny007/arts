@@ -12583,7 +12583,7 @@ background: #000;
   zoom: 1;
   filter: alpha(opacity=20);
   -webkit-opacity: 0.2;
-  opacity: 0.2;
+  opacity: 0.7;
 }
 
 .image-hover-block:hover .sx-info .sx-tilte,

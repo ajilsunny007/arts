@@ -91,8 +91,8 @@
 
 			<!-- SECTION CONTENT START -->
             <div class="section-full p-tb80 column-grid-4 inner-page-padding" >
-            	<div class="container" style="margin-top: 100px !important">
-
+            	<div class="container text-center" style="margin-top: 100px !important">
+                    <p class="sx-tilte" style="color: darkgray;font-size: 24px;align-content:center"><?php echo strtoupper($name) ?></p>
                     <!-- GALLERY CONTENT START -->
                      <ul  class="masonry-outer mfp-gallery row work-grid clearfix list-unstyled">
 

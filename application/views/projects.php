@@ -114,11 +114,14 @@
                                 <div class="sx-thum-bx">
                                     <img src="<?php echo base_url('assets/projects/').$image?>" alt="">
                                 </div>
-                                <div class="sx-info  p-t20 text-white">
+                                <!-- <div class="sx-info  p-t20 text-white">
                                     <h4 class="sx-tilte m-t0"><?php echo $key->p_name ?></h4>
                                     <p class="m-b0"><?php echo $key->p_caption ?></p>
-                                </div>
+                                </div> -->
                            </div>
+                           <div class="bg-white text-center mt-2">
+                                <p class="sx-tilte" style="color: darkgray;font-size: 14px;"><?php echo strtoupper($key->p_name) ?></p>
+                            </div>
                            </a>
                         </li>
                         <?php } ?>

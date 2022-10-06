@@ -8,16 +8,16 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="widget widget_about">
                         <!--<h4 class="widget-title">About Company</h4>-->
-                        <div class="logo-footer clearfix p-b15 ml-3">
-                            <a href="<?php echo site_url('') ?>"><img src="<?php echo base_url()?>assets/images/logo.png" alt=""></a>
+                        <div class="logo-footer clearfix p-b15 ml-3 pb-2">
+                            <a href="<?php echo site_url('') ?>"><img src="<?php echo base_url()?>assets/images/logo.png" alt="" style="max-width: 100% !important;"></a>
                         </div>
                         <!-- <p>Architecture Studio is a interior and architecture purpose. Today we can tell you, thanks to your passion.</p> -->
 
-                        <ul class="social-icons  sx-social-links">
-                            <li><a href="https://www.houzz.in/pro/akhil-augustine/akhil-albin-architects" target="_blank" class="fa fa-houzz"></a></li>
-                            <li><a href="https://m.facebook.com/1743437685915227/" target="_blank" class="fa fa-facebook"></a></li>
+                        <ul class="social-icons  sx-social-links pl-4">
+                            <li class="pr-3"><a href="https://www.houzz.in/pro/akhil-augustine/akhil-albin-architects" target="_blank" class="fa fa-houzz"></a></li>
+                            <li class="pr-3"><a href="https://m.facebook.com/1743437685915227/" target="_blank" class="fa fa-facebook"></a></li>
                             <!-- <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li> -->
-                            <li><a href="https://instagram.com/akhil_albin_architects" target="_blank" class="fa fa-instagram"></a></li>
+                            <li class="pr-3"><a href="https://instagram.com/akhil_albin_architects" target="_blank" class="fa fa-instagram"></a></li>
                         </ul>
                     </div>
                 </div>
